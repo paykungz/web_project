@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+.fontHead {
+    font-family: 'Comfortaa', cursive;
+    color: rgb(112, 8, 8);
+    font-size: 100px;
+}
+
+.bg {
+    background-image: url("img/BG-1.png");
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.fontMain {
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+    font-size: 100px;
+}
+
+.fontDetail {
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    font-size: 100px;
+}
+
+.mar {
+    margin: 140px 0px 0px 0px
+}
+
+.bg2 {
+    background: black;
+    height: 300px;
+    width: 100%;
+    vertical-align: center;
+}
+
+.mid {
+    left: 50%;
+    top: 70%;
+    position: absolute;
+}
+
+p {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}

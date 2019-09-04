@@ -1,0 +1,46 @@
+.bgMain {
+    background-image: url("img/head-bg.jpg");
+}
+
+.bg-in {
+    margin: 20px 0px 20px 200px;
+}
+
+.bg-left {
+    margin: 150px 200px 20px 300px;
+}
+
+.bg-mouse {
+    background-image: url("img/mouse.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-key {
+    background-image: url("img/keyboard.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box {
+    height: 200px;
+}
+
+.div-middle {
+    display: table-cell;
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    border: 3px dashed #1c87c9;
+    vertical-align: middle;
+}
+
+.noBG {
+    background-color: none;
+}
+
+.BG {
+    background: black;
+}
