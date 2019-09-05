@@ -1,0 +1,26 @@
+section {
+    background-image: url("img/bg_regis.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 900px;
+    width: 100%;
+    position: fixed;
+}
+
+.mid {
+    display: inline-block;
+    position: fixed;
+    top: 10%;
+    bottom: 0;
+    left: 10%;
+    right: 10%;
+    width: 70%;
+    height: 800px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.row-mar {
+    margin: 20px 0;
+}
