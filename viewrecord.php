@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="bg.css">
     <link rel="stylesheet" href="regis.css">
     <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
     <script type="text/javascript">
         (function($) {
             $(document).ready(function() {

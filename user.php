@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="bg.css">
     <link rel="stylesheet" href="regis.css">
     <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
     <script type="text/javascript">
         (function($) {
             $(document).ready(function() {
@@ -131,8 +132,6 @@
         $result = $conn->query($sql);
         if(mysqli_query($conn,$sql)){
             if(mysqli_num_rows($result)>0){
-                echo '<div>
-                <div style="padding: 50px 50px">';
                 while($row = mysqli_fetch_assoc($result)){
                     $id = $row['id'];
                     $name = $row['name'];
@@ -142,6 +141,9 @@
                     $gender = $row['gender'];
                     $post = $row['post_code'];
                     $pro = $row['province'];
+                    echo 
+            '<div>
+                <div style="padding: 50px 50px">';
                     echo '
                 <div class="signup-form2">
                     <form action="confirm.php" method="post">
